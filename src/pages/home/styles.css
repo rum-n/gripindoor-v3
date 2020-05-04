@@ -1,0 +1,24 @@
+.title {
+    font-size: 3.5em;
+    margin-top: 3em;
+}
+
+.subheading {
+    font-size: 2.5em;
+    margin-top: 50vh;
+}
+
+.MuiInputBase-input {
+    background: white !important;
+    width: 500px !important; 
+}
+
+.gymList {
+    padding: 100px;
+}
+
+@media screen and (max-width: 850px) {
+    .gymList {
+        padding: 20px;
+    }
+}
