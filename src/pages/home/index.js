@@ -10,31 +10,31 @@ import IconButton from '@material-ui/core/IconButton';
 import InfoIcon from '@material-ui/icons/Info';
 import tileData from './tileData';
 
-const cities = [];
-
-const gymCities = () =>{
-    for (let i = 0; i < tileData.length; i++) {
-        cities.push(tileData[i].address);
-    }
-};
-gymCities();
-
 const Home = () => {
     const fade = useSpring({opacity: 1, from: {opacity: 0}, delay: 400})
 
-    const [searchTerm, setSearchTerm] = useState("");
-    const [searchResults, setSearchResults] = useState([]);
-    
-    const handleChange = event => {
-       setSearchTerm(event.target.value);
-     };
+    const [searchText, setSearchText] = useState("");
+    const [data, setData] = useState(tileData);
 
-    useEffect(() => {
-       const results = cities.filter(city =>
-         city.toLowerCase().includes(searchTerm)
-       );
-       setSearchResults(results);
-     }, [searchTerm]);
+    const excludeColumns = ["img", "email"];
+
+    const handleChange = value => {
+        setSearchText(value);
+        filterData(value);
+      };
+
+    const filterData = (value) => {
+        const lowercasedValue = value.toLowerCase().trim();
+        if (lowercasedValue === "") setData(tileData);
+        else {
+          const filteredData = tileData.filter(item => {
+            return Object.keys(item).some(key =>
+              excludeColumns.includes(key) ? false : item[key].toString().toLowerCase().includes(lowercasedValue)
+            );
+          });
+          setData(filteredData);
+        }
+      }
 
     return (
         <animated.div style={fade}>
@@ -46,8 +46,8 @@ const Home = () => {
                 id="filled-basic" 
                 label="Search for your city" 
                 variant="filled" 
-                value={searchTerm}
-                onChange={handleChange}
+                value={searchText}
+                onChange={e => handleChange(e.target.value)}
             />
             <Grid 
                 className="gymList"
@@ -58,17 +58,15 @@ const Home = () => {
                 alignItems="center">
                 <Grid  
                     item
-                    xs={12}
-                >
+                    xs={12} >
                     <GridList 
                         cellHeight={200}  
-                        cols={4}>
-                            {searchResults.map((tile) => (
+                        cols={4} >
+                            {data.map((tile) => (
                             <GridListTile key={tile.img}> 
                             <img 
                                 src={tile.img} 
-                                alt={tile.title}
-                            />
+                                alt={tile.title} />
                                 <GridListTileBar
                                     title={tile.title}
                                     subtitle={tile.address}
