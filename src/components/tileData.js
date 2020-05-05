@@ -1,26 +1,29 @@
-import kreuz from './../../img/boulder-kreuzberg.jpeg';
-import kegel from './../../img/kegel.jpeg';
-import ostbloc from './../../img/ostbloc.jpeg';
-import brightsite from './../../img/bright-site.jpg';
-import magic from './../../img/magic.jpg';
-import berta from './../../img/berta.jpg';
-import su from './../../img/su.jpg';
-import walltopia from './../../img/walltopia.jpg';
-import nsa from './../../img/nsa.jpg';
-import boulderhane from './../../img/boulderhane.jpg';
-import craggy from './../../img/craggy.jpg';
-import citybloc from './../../img/citybloc.jpg';
-import dartrock from './../../img/dartrock.jpeg';
-import arch from './../../img/arch.jpg';
-import kendal from './../../img/kendal.jpg';
-import blockout from './../../img/blockout.jpg';
-import castle from './../../img/castle.jpg';
-import bstockhlm from './../../img/bstockhlm.jpeg';
-import hangar from './../../img/hangar.jpg';
-import sharma from './../../img/sharma.jpg';
-import manch from './../../img/manch.jpg';
-import quay from './../../img/quay.jpg';
-import rockcity from './../../img/rockcity.jpeg';
+import kreuz from './../img/boulder-kreuzberg.jpeg';
+import kegel from './../img/kegel.jpeg';
+import ostbloc from './../img/ostbloc.jpeg';
+import brightsite from './../img/bright-site.jpg';
+import magic from './../img/magic.jpg';
+import berta from './../img/berta.jpg';
+import su from './../img/su.jpg';
+import walltopia from './../img/walltopia.jpg';
+import nsa from './../img/nsa.jpg';
+import boulderhane from './../img/boulderhane.jpg';
+import craggy from './../img/craggy.jpg';
+import citybloc from './../img/citybloc.jpg';
+import dartrock from './../img/dartrock.jpeg';
+import arch from './../img/arch.jpg';
+import kendal from './../img/kendal.jpg';
+import blockout from './../img/blockout.jpg';
+import castle from './../img/castle.jpg';
+import bstockhlm from './../img/bstockhlm.jpeg';
+import hangar from './../img/hangar.jpg';
+import sharma from './../img/sharma.jpg';
+import manch from './../img/manch.jpg';
+import quay from './../img/quay.jpg';
+import rockcity from './../img/rockcity.jpeg';
+import glasgow from './../img/glasgow.jpeg';
+import harro from './../img/harro.jpeg';
+import shack from './../img/shack.jpeg';
 
 export default [
     {
@@ -209,7 +212,7 @@ export default [
         "email": "info@rockcity.co.uk"
     },
     {
-        "img": "nsa",
+        "img": glasgow,
         "title": "The Glasgow Climbing Centre",
         "address": "534 Paisley Rd W, Glasgow G51 1RN,",
         "country": "United Kingdom",
@@ -217,7 +220,7 @@ export default [
         "email": "info@glasgowclimbingcentre.com"
     },
     {
-        "img": "nsa",
+        "img": harro,
         "title": "HarroWall Climbing Centre",
         "address": "Unit 2a & 3a, Neptune Trading Estate, Neptune Rd, Harrow HA1 4HX",
         "country": "United Kingdom",
@@ -225,7 +228,7 @@ export default [
         "email": "info@harrowall.co.uk"
     },
     {
-        "img": "nsa",
+        "img": shack,
         "title": "Boulder Shack Climbing Gym",
         "address": "Unit 4, Imperial Park, Empress Rd, Southampton SO14 0JW",
         "country": "United Kingdom",
