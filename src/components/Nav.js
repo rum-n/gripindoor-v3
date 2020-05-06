@@ -12,11 +12,17 @@ function Nav() {
             </div>
         </Link>
         <ul className='menu'>
+            <Link to='/login'>
+                <li>Login</li>
+            </Link>
             <Link to='/map'>
                 <li>Map</li>
             </Link>
             <Link to='/about'>
                 <li>About</li>
+            </Link>
+            <Link to='/contact'>
+                <li>Contact</li>
             </Link>
         </ul>                 
     </div>

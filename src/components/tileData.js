@@ -24,6 +24,37 @@ import rockcity from './../img/rockcity.jpeg';
 import glasgow from './../img/glasgow.jpeg';
 import harro from './../img/harro.jpeg';
 import shack from './../img/shack.jpeg';
+import suas from './../img/suas.jpeg';
+import warehouse from './../img/warehouse.jpeg';
+import limerick from './../img/limerick.jpg';
+import hackney from './../img/hackney.jpg';
+import pxp from './../img/pxp.jpeg';
+import leze from './../img/leze.jpg';
+import min from './../img/min.jpg';
+import dav from './../img/dav.jpg';
+import ki from './../img/ki.jpg';
+import srk from './../img/srk.jpg';
+import bwme from './../img/bwme.jpeg';
+import tsekh from './../img/tsekh.jpg';
+import bcafe from './../img/bcafe.jpg';
+import beacon from './../img/beacon.jpg';
+import gaswerk from './../img/gaswerk.jpg';
+import bcardiff from './../img/bcardiff.jpg';
+import blocswall from './../img/blocswall.jpg';
+import ice from './../img/ice.jpg';
+import bjoeks from './../img/bjoeks.jpeg';
+import woodrock from './../img/woodrock.jpeg';
+import depot from './../img/depot.jpeg';
+import kiip from './../img/kiip.jpg';
+import lyon from './../img/lyon.jpeg';
+import klat from './../img/klat.jpeg';
+import awesome from './../img/awesome.jpg';
+import climbat from './../img/climbat.jpg';
+import roc from './../img/roc.jpg';
+import centrul from './../img/centrul.jpg';
+import zenit from './../img/zenit.jpg';
+import hut from './../img/hut.jpg';
+import ktel from './../img/ktel.jpeg';
 
 export default [
     {
@@ -236,7 +267,7 @@ export default [
         "email": ""
     },
     {
-        "img": "nsa",
+        "img": suas,
         "title": "Suas Climbing Centre",
         "address": "Burlington Business and Leisure Park, Gilloge, Cloonlara, Co. Clare, V94 EYK6",
         "country": "Ireland",
@@ -244,7 +275,7 @@ export default [
         "email": "info@suasclimbing.ie"
     },
     {
-        "img": "nsa",
+        "img": warehouse,
         "title": "The Warehouse Climbing & Caving Centre",
         "address": "Parliament St, Gloucester GL1 1HY",
         "country": "United Kingdom",
@@ -252,15 +283,15 @@ export default [
         "email": "info@the-warehouse.co.uk"
     },
     {
-        "img": "nsa",
-        "title": "Nevsail Watersports Limerick Climbing Wall",
+        "img": limerick,
+        "title": "Nevsail Watersports Climbing Wall",
         "address": "20 Sexton St, Limerick, V94 R5P8",
         "country": "Ireland",
         "website": "https://www.nevsailwatersports.ie/home.html",
         "email": "info@nevsailwatersports.com"
     },
     {
-        "img": "nsa",
+        "img": hackney,
         "title": "Hackney Wick Boulder Project",
         "address": "117 Wallis Rd, Hackney Wick, London E9 5LN",
         "country": "United Kingdom",
@@ -268,7 +299,7 @@ export default [
         "email": "info@hackneywickboulder.co.uk"
     },
     {
-        "img": "nsa",
+        "img": pxp,
         "title": "PXP Climbing",
         "address": "Leof. Kon/nou Karamanli 124, Thessaloniki 542 48",
         "country": "Greece",
@@ -276,15 +307,15 @@ export default [
         "email": "info@pxp.gr"
     },
     {
-        "img": "nsa",
-        "title": "Lezecká stena K2 - Bratislava",
+        "img": leze,
+        "title": "Lezecká stena K2",
         "address": "Stará Ivanská cesta 1B, 821 04 Bratislava,",
         "country": "Slovakia",
         "website": "https://www.lezeckastena.sk/",
         "email": "ezeckastena@lezeckastena.sk"
     },
     {
-        "img": "nsa",
+        "img": min,
         "title": "Minimum",
         "address": "Flüelastrasse 31, 8047 Zürich",
         "country": "Switzerland",
@@ -292,15 +323,15 @@ export default [
         "email": "mail@minimum.ch"
     },
     {
-        "img": "nsa",
-        "title": "DAV Climbing Center Berlin",
+        "img": dav,
+        "title": "DAV Climbing Center",
         "address": "Seydlitzstraße 1 H, 10557 Berlin",
         "country": "Germany",
         "website": "https://dav-berlin.de/?cli_action=1588286005.698",
         "email": "service@dav-berlin.de widerrufen"
     },
     {
-        "img": "nsa",
+        "img": ki,
         "title": "KI - Kletterzentrum Innsbruck",
         "address": "Matthias-Schmid-Straße 12c, 6020 Innsbruck",
         "country": "Austria",
@@ -308,7 +339,7 @@ export default [
         "email": "info@kletterzentrum-innsbruck.at"
     },
     {
-        "img": "nsa",
+        "img": srk,
         "title": "South Rock Kletterhalle",
         "address": "Trachenbergring 85, 12249 Berlin",
         "country": "Germany",
@@ -316,7 +347,7 @@ export default [
         "email": "info@area-85.de"
     },
     {
-        "img": "nsa",
+        "img": bwme,
         "title": "Boulder World Munich East",
         "address": "Hanne-Hiob-Straße 4, 81671 München",
         "country": "Germany",
@@ -324,15 +355,15 @@ export default [
         "email": "contact@boulderwelt-muenchen-ost.de"
     },
     {
-        "img": "nsa",
-        "title": "Tsekh (\"Workshop\") Climbing Gym",
+        "img": tsekh,
+        "title": "Tsekh Climbing Gym",
         "address": "Borshchagovskaya, 154 shopping center Marmalade, 6th floor",
         "country": "Ukraine",
         "website": "https://www.skalodrom.com.ua/",
         "email": "info@skalodrom.com.ua"
     },
     {
-        "img": "nsa",
+        "img": bcafe,
         "title": "Bloc Cafè Gym Boulder",
         "address": "Baixada del Molí, 7, AD500 Andorra la Vella",
         "country": "Andorra",
@@ -340,7 +371,7 @@ export default [
         "email": "info@bloccafe.com"
     },
     {
-        "img": "nsa",
+        "img": beacon,
         "title": "Beacon Climbing Centre",
         "address": "Cibyn Industrial Estate, Caernarfon LL55 2BD",
         "country": "United Kingdom",
@@ -348,7 +379,7 @@ export default [
         "email": "info@beaconclimbing.com"
     },
     {
-        "img": "nsa",
+        "img": gaswerk,
         "title": "Kletterzentrum Gaswerk Schlieren",
         "address": "Kohlestrasse 12b, 8952 Schlieren",
         "country": "Switzerland",
@@ -356,7 +387,7 @@ export default [
         "email": "info@kletterzentrum.com"
     },
     {
-        "img": "nsa",
+        "img": bcardiff,
         "title": "Boulders",
         "address": "H, St Catherines Park, Pengam Rd, Cardiff CF24 2RZ",
         "country": "United Kingdom",
@@ -364,7 +395,7 @@ export default [
         "email": "info@bouldersuk.com"
     },
     {
-        "img": "nsa",
+        "img": blocswall,
         "title": "Blocs & Walls",
         "address": "Denmark, Refshalevej 163D, 1432 København",
         "country": "Denmark",
@@ -372,7 +403,7 @@ export default [
         "email": "mail@blocs-walls.dk"
     },
     {
-        "img": "nsa",
+        "img": ice,
         "title": "Ice Factor, The National Ice Climbing Centre",
         "address": "Leven Rd, Kinlochleven PH50 4SF",
         "country": "United Kingdom",
@@ -380,7 +411,7 @@ export default [
         "email": "info@ice-factor.co.uk"
     },
     {
-        "img": "nsa",
+        "img": bjoeks,
         "title": "Klimcentrum Bjoeks",
         "address": "Bieskemaar 3, 9735 AE Groningen",
         "country": "Netherlands",
@@ -388,7 +419,7 @@ export default [
         "email": "info@bjoeks.nl"
     },
     {
-        "img": "nsa",
+        "img": woodrock,
         "title": "Hall Woodrock",
         "address": "Partizánska 1849, 058 01 Poprad-Priemyselný obvod - zápa",
         "country": "Slovakia",
@@ -396,15 +427,15 @@ export default [
         "email": "hala.woodrock@gmail.com"
     },
     {
-        "img": "nsa",
-        "title": "The Depot Climbing Centre, Manchester",
+        "img": depot,
+        "title": "The Depot Climbing Centre",
         "address": "N1/N2, Central Park Estate, Central Park Trading Estate, 14 Mosley Road, Stretford, Manchester M17 1PG,",
         "country": "United Kingdom",
         "website": "https://www.theclimbingdepot.co.uk/manchester",
         "email": "info@theclimbingdepot.com"
     },
     {
-        "img": "nsa",
+        "img": kiip,
         "title": "KiipeilyAreena Salmisaari",
         "address": "Energiakatu 3, 00180 Helsink",
         "country": "Finland",
@@ -412,7 +443,7 @@ export default [
         "email": "info@kiipeilyareena.com"
     },
     {
-        "img": "nsa",
+        "img": lyon,
         "title": "Climb Up Lyon Confluence",
         "address": "112 Cours Charlemagne, 69002 Lyon",
         "country": "France",
@@ -420,7 +451,7 @@ export default [
         "email": ""
     },
     {
-        "img": "nsa",
+        "img": klat,
         "title": "Oslo Klatresenter AS",
         "address": "Olaf Helsets vei 5, 0694 Oslo",
         "country": "Norway",
@@ -428,7 +459,7 @@ export default [
         "email": "POST@OSLOKLATRESENTER.NO"
     },
     {
-        "img": "nsa",
+        "img": awesome,
         "title": "Awesome Walls Dublin",
         "address": "North Park, North Rd, Kildonan, Dublin 11",
         "country": "Ireland",
@@ -436,7 +467,7 @@ export default [
         "email": "dublin@awesomewalls.ie"
     },
     {
-        "img": "nsa",
+        "img": climbat,
         "title": "Climbat La Foixarda",
         "address": "Carrer de la Foixarda, 14, 18, 08038 Barcelona",
         "country": "Spain",
@@ -444,7 +475,7 @@ export default [
         "email": "lafoixarda@climbat.com"
     },
     {
-        "img": "nsa",
+        "img": roc,
         "title": "Roc and Resin",
         "address": "3 Rue des Alouettes, 94320 Thiais",
         "country": "France",
@@ -452,7 +483,7 @@ export default [
         "email": "info@roc-et-resine.fr"
     },
     {
-        "img": "nsa",
+        "img": centrul,
         "title": "Centrul Climb Again",
         "address": "Șoseaua Berceni 8, București 041902",
         "country": "Romania",
@@ -460,15 +491,15 @@ export default [
         "email": "contact@climbagain.ro"
     },
     {
-        "img": "nsa",
-        "title": "ZENIT Boulderhalle Osnabrück",
+        "img": zenit,
+        "title": "Zenit Boulderhalle",
         "address": "Dammstraße 2, 49084 Osnabrück",
         "country": "Germany",
         "website": "https://www.zenit-klettern.de/",
         "email": "info@zenit-kletter.de"
     },
     {
-        "img": "nsa",
+        "img": hut,
         "title": "Boulder Hut",
         "address": "Unit 1, Olympic Park, Poole Hall Rd, Ellesmere Port CH66 1ST",
         "country": "United Kingdom",
@@ -476,7 +507,7 @@ export default [
         "email": "info@boulderhut.com"
     },
     {
-        "img": "nsa",
+        "img": ktel,
         "title": "Klättercentret Telefonplan",
         "address": "Tellusgången 22-24, 126 26 Hägersten",
         "country": "Sweden",

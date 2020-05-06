@@ -3,9 +3,12 @@
     margin-top: 3em;
 }
 
-.subheading {
-    font-size: 2.5em;
-    margin-top: 50vh;
+h2 {
+    margin-bottom: 100px;
+}
+
+h3 {
+    margin-bottom: 50px;
 }
 
 .MuiInputBase-input {
