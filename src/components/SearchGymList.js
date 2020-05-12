@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './styles.css';
 import Grid from '@material-ui/core/Grid';
 import GridList from '@material-ui/core/GridList';
@@ -46,7 +47,6 @@ const SearchGymList = () => {
             <Grid 
                 className="gymList"
                 container 
-                spacing={5}
                 direction="row"
                 justify="center"
                 alignItems="center" >
@@ -65,11 +65,13 @@ const SearchGymList = () => {
                                     title={tile.title}
                                     subtitle={tile.address}
                                     actionIcon={
+                                        <Link to={`/${tile.title}`}>
                                         <IconButton 
                                             aria-label={`info about ${tile.title}`} 
                                             style={{color: 'rgba(255, 255, 255, 0.54)'}}>
                                             <InfoIcon />
                                         </IconButton>
+                                        </Link>
                                     }
                                 />
                             </GridListTile>

@@ -64,7 +64,6 @@ export default [
         "country": "Germany",
         "website": "", 
         "email": ""
-
     },
     {
         "img": kegel,    
