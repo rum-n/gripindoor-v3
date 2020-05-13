@@ -4,13 +4,18 @@ import Paper from '@material-ui/core/Paper';
 import { makeStyles } from '@material-ui/core/styles';
 import './styles.css';
 import tileData from './../../components/tileData';
+import Iframe from 'react-iframe';
+import LocationOnIcon from '@material-ui/icons/LocationOn';
+import LanguageIcon from '@material-ui/icons/Language';
+import MailOutlineIcon from '@material-ui/icons/MailOutline';
 
 const useStyles = makeStyles((theme) => ({
     root: {
       display: 'flex',
-      flexWrap: 'wrap',
+      flexWrap: 'no-wrap',
+      flexDirection: 'row',
       '& > *': {
-        margin: theme.spacing(15),
+        margin: theme.spacing(10),
         width: theme.spacing(70),
         height: theme.spacing(80),
         color: 'white',
@@ -35,12 +40,15 @@ const GymDetails = ({match}) => {
                 <div className='gymInfo'>
                     <img className='gymImg' src={currentGym[0].img} alt={currentGym[0].title} />
                     <h1>{match.params.id}</h1>
-                    <p>{currentGym[0].address}</p>
-                    <p>{currentGym[0].country}</p>
-                    <a href={currentGym[0].website}>{currentGym[0].website}</a>
-                    <p>{currentGym[0].email}</p>
+                    <p><span><LocationOnIcon/></span>{currentGym[0].address}</p>
+                    <p><span><LanguageIcon/></span><a href={currentGym[0].website}>{currentGym[0].website}</a></p>
+                    <p><span><MailOutlineIcon/></span>{currentGym[0].email}</p>
                 </div>
             </Paper>
+            <Iframe url="https://www.openstreetmap.org/export/embed.html?bbox=13.45878839492798%2C52.5086793470659"
+              width="450px"
+              height="450px"
+              className={classes.root}/>
         </animated.div>
     );
 }

@@ -1,8 +1,22 @@
 .gymImg {
     margin-top: 10%;
-    width: 450px;
+    width: 90%;
+    height: 300px;
 }
 
 .gymInfo {
     margin-left: 10%;
+}
+
+.gymInfo a {
+    color: #F0958C;
+    text-decoration: none;
+}
+
+.gymInfo span {
+    padding-right: 10px;
+}
+
+.gymInfo a:hover {
+    text-decoration: underline;
 }

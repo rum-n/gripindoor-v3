@@ -5,27 +5,17 @@ import './styles.css';
 
 function Nav() {
   return (
-    <div>
-        <Link to='/'>
-            <div className='logo'>
-                <img src={logo} alt='Logo'/>
-            </div>
-        </Link>
+    <nav>
+        <Link to='/'><img className='logo' src={logo} alt='Logo'/></Link>
         <ul className='menu'>
-            <Link to='/login'>
-                <li>Login</li>
-            </Link>
-            <Link to='/map'>
+        <Link to='/about'>
                 <li>Map</li>
             </Link>
             <Link to='/about'>
                 <li>About</li>
             </Link>
-            <Link to='/contact'>
-                <li>Contact</li>
-            </Link>
-        </ul>                 
-    </div>
+        </ul>
+    </nav>
   );
 }
 
