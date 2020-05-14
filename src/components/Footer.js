@@ -4,9 +4,8 @@ import TwitterIcon from '@material-ui/icons/Twitter';
 function Footer() {
   return (
     <div className='footer'>
-        {/* <p>Created by Rumen Manev</p> */}
-        {/* <p>Can be found at <a href='rmanev.com'>rmanev.com</a> or at <TwitterIcon/></p> */}
-        <TwitterIcon/>
+        <p>Created with 💪 by <a href='https://rmanev.com'>Rumen Manev</a></p>
+        {/* <a href='https://twitter.com/room_n'><TwitterIcon/></a> */}
     </div>
   );
 }

@@ -4,10 +4,11 @@ import Paper from '@material-ui/core/Paper';
 import { makeStyles } from '@material-ui/core/styles';
 import './styles.css';
 import tileData from './../../components/tileData';
-import Iframe from 'react-iframe';
+// import Iframe from 'react-iframe';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
 import LanguageIcon from '@material-ui/icons/Language';
 import MailOutlineIcon from '@material-ui/icons/MailOutline';
+import GymMap from './../../components/GymMap';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -28,10 +29,7 @@ const useStyles = makeStyles((theme) => ({
 const GymDetails = ({match}) => {
     const fade = useSpring({opacity: 1, from: {opacity: 0}, delay: 400})
     const [data] = useState(tileData);
-
     const currentGym = data.filter(gym => gym.title === match.params.id)
-    // console.log(Object.values(currentGym));
-
     const classes = useStyles();
 
     return (
@@ -45,10 +43,7 @@ const GymDetails = ({match}) => {
                     <p><span><MailOutlineIcon/></span>{currentGym[0].email}</p>
                 </div>
             </Paper>
-            <Iframe url="https://www.openstreetmap.org/export/embed.html?bbox=13.45878839492798%2C52.5086793470659"
-              width="450px"
-              height="450px"
-              className={classes.root}/>
+            <GymMap/>
         </animated.div>
     );
 }
